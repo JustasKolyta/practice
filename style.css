@@ -1,8 +1,12 @@
 @font-face{
     font-family: matrix;
     src: url('matrix.ttf') format('truetype');
+    
 }
-
+@font-face{
+    font-family:roboto;
+    src:url(fonts/Roboto-VariableFont_wdth\,wght.ttf) format('truetype');
+}
 
 
 body{
@@ -18,7 +22,9 @@ h1{
     color:#00FF00;
     text-align: center;
     margin:20px;
-    font:matrix;
+    font-family:matrix,roboto;
+    font-size:72px;
+    
 
     
     
@@ -27,6 +33,7 @@ p{
     color:#00FF00;
     text-align: center;
     margin:0;
+    font-family: matrix,roboto;
     
     
     
